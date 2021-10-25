@@ -1,0 +1,82 @@
+/* style sheet */
+body{
+    background-color: bisque;
+    font-size: 100%;
+}
+
+header {
+    background-color: white;
+}
+
+#title {
+       font-size: 2.5em;
+    text-align: center;
+}
+
+#subtitle {
+    background-color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+#text_align_center {
+    text-align: center;
+    color: black;
+}
+
+#paragraph_text {
+    font-size: 1.5em;
+    color: black;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.internal_box {
+    background-color: burlywood;
+    width: 90%;
+    border: 5px solid darkblue;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+#footer_text {
+    text-align: right;
+    padding-right: 15px;
+}
+
+footer {
+    background-color: white;
+    position: sticky;
+    bottom: 0%;
+}
+
+#top_box {
+    background-color: white;
+    border-color: black;
+}
+
+.image {
+    float: right;
+    border: 2px;
+}
+
+
+.checked {
+    color: orange;
+}
+
+.star_box {
+    background-color: white;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: horizontal;
+    margin: auto;
+    margin-bottom: 2%;
+}
